@@ -1,21 +1,27 @@
-Aerial TV Rules
+# ios_rule_reweite
 
-Personal routing rules and rewrite resources for Surge, Loon, and compatible clients.
+个人自用的 Surge / Loon 规则汇总仓库，包含分流规则、复写规则和脚本资源。
 
-Layout
+## 目录
 
-- rule/Surge/: Surge rule sets
-- rule/Loon/: Loon rule sets
-- rewrite/Surge/: Surge rewrite modules
-- rewrite/Loon/: Loon rewrite resources
-- script/: reserved for client scripts
+- `rule/Surge/`：Surge 分流规则
+- `rule/Loon/`：Loon 分流规则
+- `rewrite/Surge/`：Surge 复写模块
+- `rewrite/Loon/`：Loon 复写规则
+- `script/`：脚本资源
 
-Usage
+## 使用方式
 
-Surge rule URL:
-https://raw.githubusercontent.com/a1026832611/aerial-emby-rules/main/rule/Surge/Emby.list
+Surge 规则示例：
 
-Loon rule URL:
-https://raw.githubusercontent.com/a1026832611/aerial-emby-rules/main/rule/Loon/Emby.list
+```ini
+RULE-SET,https://raw.githubusercontent.com/a1026832611/ios_rule_reweite/main/rule/Surge/Emby.list,emby
+```
 
-Rules are maintained for personal use. Review changes before importing remote resources.
+Loon 规则示例：
+
+```text
+https://raw.githubusercontent.com/a1026832611/ios_rule_reweite/main/rule/Loon/Emby.list
+```
+
+规则按个人使用场景维护，导入远程规则前请先检查内容。
